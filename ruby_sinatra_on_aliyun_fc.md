@@ -81,6 +81,7 @@ curl https://sendxxx-service-fkhamynmsx.cn-guangzhou.fcapp.run
 - 其他ruby版本目前我也不知道怎么弄
 - gem sources设置无效，选择在Gemfile把源 直接 改成 gems.ruby-china.com
 - bootstrap里记得加 -o 0.0.0.0 如果host不设置 0.0.0.0 的话，请求会超时，port设置里也有说明；并且记得执行 chmod 755 bootstrap赋予文件的可执行权限，否则会有权限问题
+- 每个函数是可以设置环境变量的
 
 ## 参考
 - https://qiita.com/poruruba/items/004db74b8d9942a248df
