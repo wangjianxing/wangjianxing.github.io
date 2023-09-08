@@ -77,7 +77,7 @@ curl https://sendxxx-service-fkhamynmsx.cn-guangzhou.fcapp.run
 ## 注意要点
 
 - HTTP触发器认证方式选择 *无需认证*
-- 如果要使用HTTP触发器的其他认证方式中，签名验证没有官方sdk，使用JWT（gem 'jwt'）会比较简单
+- 如果要使用HTTP触发器的其他认证方式，签名验证没有官方sdk，使用JWT（gem 'jwt'）会比较简单
 - 其他ruby版本目前我也不知道怎么弄
 - gem sources设置无效，选择在Gemfile把源 直接 改成 gems.ruby-china.com
 - bootstrap里记得加 -o 0.0.0.0 如果host不设置 0.0.0.0 的话，请求会超时，port设置里也有说明；并且记得执行 chmod 755 bootstrap赋予文件的可执行权限，否则会有权限问题
